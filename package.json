@@ -1,0 +1,25 @@
+{
+  "name": "next-cookie-auth",
+  "version": "1.0.0",
+  "description": "cookies authentication with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=reproduction node server.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "Oluwafemi Egbodofo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
