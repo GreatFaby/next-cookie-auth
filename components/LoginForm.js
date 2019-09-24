@@ -3,8 +3,8 @@ import Router from 'next/router';
 
 class LoginForm extends React.Component {
   state = {
-    email: 'Sincere@april.biz',
-    password: 'hildegard.org',
+    email: 'Shanna@melissa.tv',
+    password: 'anastasia.net',
     error: '',
     isLoading: false,
   };
